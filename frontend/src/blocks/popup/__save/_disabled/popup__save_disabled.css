@@ -1,0 +1,8 @@
+.popup__save_disabled {
+  border: 1px solid #000;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  opacity: 20%;
+  cursor: default;
+}
+

@@ -1,0 +1,16 @@
+.page__header {
+  margin-top: calc(28px + (45 - 28) * ((100vw - 320px) / (1280 - 320)));
+  padding-bottom: calc(31.6px + (41 - 31.6) * ((100vw - 320px) / (1280 - 320)));
+  margin-bottom: 38.25px;
+  min-width: 320px;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .page__header {
+    margin: 45px auto 36.25px;
+    padding-bottom: 41px;
+  }
+}

@@ -1,0 +1,17 @@
+.photo__vector {
+  background-color: #ffffff;
+  background-image: url(../../../images/нравится.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 19px;
+  border-style: none;
+  padding: 0;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.photo__vector:hover {
+  opacity: 50%;
+}
+
+

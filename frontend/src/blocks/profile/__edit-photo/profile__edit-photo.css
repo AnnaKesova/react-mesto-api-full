@@ -1,0 +1,18 @@
+.profile__edit-photo {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0);
+  background-image: url(../../../images/VectorPen.svg);
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 0 22.25px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .profile__edit-photo {
+    margin: 0 26.25px 0 0;
+  }
+}

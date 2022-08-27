@@ -1,0 +1,7 @@
+.photo__title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 0 21px;
+  box-sizing: border-box;
+  align-items: center;
+}

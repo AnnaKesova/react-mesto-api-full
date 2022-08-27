@@ -1,0 +1,12 @@
+.form__item-error {
+    display: block;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #ff0000;
+    margin: 5px 0 0 0;
+    box-sizing: border-box;
+    height: 12px;
+    min-height: 24px;
+  }

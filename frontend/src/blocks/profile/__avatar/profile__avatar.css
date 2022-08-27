@@ -1,0 +1,15 @@
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-sizing: border-box;
+  
+}
+
+.profile__avatar:hover {
+  opacity: 20%;
+  cursor: pointer;
+}

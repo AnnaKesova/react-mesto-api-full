@@ -1,0 +1,16 @@
+.login {
+  display: flex;
+  align-items: center;
+  max-width: 260px;
+  margin: 22px auto 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .login {
+    justify-content: center;
+    max-width: 358px;
+    width: 100%;
+    align-items: flex-start;
+  }
+}

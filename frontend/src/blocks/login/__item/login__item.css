@@ -1,0 +1,16 @@
+.login__item {
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid #cccccc;
+  color: #cccccc;
+}
+
+.login__item:last-of-type {
+  margin-bottom: 165px;
+}
+
+@media screen and (max-width: 320px) {
+  .login__item:last-of-type {
+    margin-bottom: 120px;
+  }
+}

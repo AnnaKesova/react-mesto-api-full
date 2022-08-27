@@ -1,0 +1,9 @@
+.content__cards {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .content__cards {
+    margin-bottom: 67px;
+  }
+}
