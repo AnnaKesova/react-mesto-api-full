@@ -14,7 +14,7 @@ const {
   createUser, login,
 } = require('./controllers/users');
 
-const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 
 const app = express();
 
