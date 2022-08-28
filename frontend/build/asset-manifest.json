@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1f768a62.css",
+    "main.js": "/static/js/main.022918cb.js",
+    "static/js/787.8ec2cbbb.chunk.js": "/static/js/787.8ec2cbbb.chunk.js",
+    "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.fd37f7e052bea1018058.woff",
+    "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.7ddb89dcdb33dd761944.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.34ed58565339f4f3be40.woff",
+    "static/media/Inter-Black.woff2?v=3.19": "/static/media/Inter-Black.141c7af6ed109b318513.woff2",
+    "static/media/Inter-Medium.woff2?v=3.19": "/static/media/Inter-Medium.6db7e439cc4b0e5c0cd2.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.4c96ed73beaf6d1e6cc7.woff2",
+    "static/media/mestologo.svg": "/static/media/mestologo.f4dd7725da75756eeec482ffcf86d0da.svg",
+    "static/media/нравится.svg": "/static/media/нравится.1ad06e85f169668a1f36.svg",
+    "static/media/Unionrefuse.svg": "/static/media/Unionrefuse.7c6a020bec681932a2af92e04114a848.svg",
+    "static/media/Урна.svg": "/static/media/Урна.823b0cf1b0b7e9cb7cad.svg",
+    "static/media/iconsuc.svg": "/static/media/iconsuc.1b6082f862eac35e2514460237d96ecc.svg",
+    "static/media/likeblack.svg": "/static/media/likeblack.fe17a515669479b1e649.svg",
+    "index.html": "/index.html",
+    "static/media/ручка.svg": "/static/media/ручка.f0dd9c51cf799b8b82d2.svg",
+    "static/media/VectorPen.svg": "/static/media/VectorPen.a086f758840ae814ecde.svg",
+    "static/media/CloseIcon.svg": "/static/media/CloseIcon.039f1f5203f653b4bacd.svg",
+    "static/media/добавить.svg": "/static/media/добавить.d5d6f8af0577b9c95ee4.svg",
+    "main.1f768a62.css.map": "/static/css/main.1f768a62.css.map",
+    "main.022918cb.js.map": "/static/js/main.022918cb.js.map",
+    "787.8ec2cbbb.chunk.js.map": "/static/js/787.8ec2cbbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f768a62.css",
+    "static/js/main.022918cb.js"
+  ]
+}
