@@ -18,7 +18,6 @@ const { PORT = 3000 } = process.env;
 
 const app = express();
 
-
 app.use(helmet());
 
 app.use(bodyParser.json());
@@ -27,40 +26,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 app.use(cors());
-// Массив доменов, с которых разрешены кросс-доменные запросы
-const allowedCors = [
-  'https://api.anna.mesto.students.nomoredomains.sbs',
-  'http://api.anna.mesto.students.nomoredomains.sbs',
-  'http://anna.mesto.students.nomoredomains.sbs',
-  'https://anna.mesto.students.nomoredomains.sbs',
-  'localhost:3000'
-];
-
-app.use(function(req, res, next) {
-  const { origin } = req.headers; // Сохраняем источник запроса в переменную origin
-  // проверяем, что источник запроса есть среди разрешённых
-  if (allowedCors.includes(origin)) {
-    res.header('Access-Control-Allow-Origin', origin);
-  }
-
-  const { method } = req;
-
-const DEFAULT_ALLOWED_METHODS = "GET,HEAD,PUT,PATCH,POST,DELETE";
-
-// Если это предварительный запрос, добавляем нужные заголовки
-
-// сохраняем список заголовков исходного запроса
-const requestHeaders = req.headers['access-control-request-headers'];
-if (method === 'OPTIONS') {
-
-    // разрешаем кросс-доменные запросы с этими заголовками
-    res.header('Access-Control-Allow-Headers', requestHeaders);
-    // завершаем обработку запроса и возвращаем результат клиенту
-    return res.end();
-}
-
-  next();
-});
 
 // роуты, нетребующие авторизации
 app.post('/signin', celebrate({
