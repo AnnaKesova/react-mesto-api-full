@@ -104,5 +104,5 @@ class Api {
 }
 
 export const api = new Api({
-  baseUrl: "http://51.250.105.57:3000",
+  baseUrl: "https://api.anna.mesto.students.nomoredomains.sbs",
 });
