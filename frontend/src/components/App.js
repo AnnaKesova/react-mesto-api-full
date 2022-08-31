@@ -84,8 +84,7 @@ function App() {
   function handleLogin({ password, email }) {
     Auth.authorize(password, email)
       .then((res) => {
-        if(res.token) {
-        localStorage.setItem("jwt", res.token);}
+        localStorage.setItem("jwt", res.token);
         setLoggedIn(true);
         navigate("/");
       })
@@ -113,6 +112,7 @@ function App() {
   }, [loggedIn]);
 
   useEffect(() => {
+    if (loggedIn) {
     api
       .getInitialCards()
       .then((res) => {
@@ -121,7 +121,8 @@ function App() {
       .catch((err) => {
         console.log(err);
       });
-  }, []);
+    }
+  }, [loggedIn]);
 
   function handleCardLike(card) {
     // Снова проверяем, есть ли уже лайк на этой карточке
