@@ -84,7 +84,8 @@ function App() {
   function handleLogin({ password, email }) {
     Auth.authorize(password, email)
       .then((res) => {
-        localStorage.setItem("jwt", res.token);
+        if(res.token) {
+        localStorage.setItem("jwt", res.token);}
         setLoggedIn(true);
         navigate("/");
       })
