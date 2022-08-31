@@ -1,4 +1,4 @@
-export const BASE_URL = "https://api.anna.mesto.students.nomoredomains.sbs";
+export const BASE_URL = 'https://api.anna.mesto.students.nomoredomains.sbs';
 
 const handlePromiseErr = (res) => {
   return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
